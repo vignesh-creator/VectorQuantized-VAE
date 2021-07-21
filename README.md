@@ -2,7 +2,7 @@
 
 This Repo contains pyTorch Implementation of the paper [Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) 
 As of now, VectorQuantization is done. VectorQuantizedEMA method is not yet Implemented but will be done soon.
-Will try to pair the Network with an Autoregressive Model soon.
+And also,will try to pair the Network with an Autoregressive Model soon.
 
 If you want to Train the model,plot Loss and view the Test reconstructions,then use command
 > python test.py
