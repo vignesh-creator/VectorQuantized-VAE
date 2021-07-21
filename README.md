@@ -1,1 +1,1 @@
-# VectorQuantization-VAE
+# VectorQuantized-VAE
