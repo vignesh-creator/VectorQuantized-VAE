@@ -24,7 +24,7 @@ The hyperparameters of the Model and Network Architecture is taken from author's
 ![](https://i.imgur.com/vBeGsMr.jpg)
 
 
-### After 4000 Training iterations
+### After 3000 Training iterations
 ![](https://i.imgur.com/ZRHqOHm.jpg)
 
 
