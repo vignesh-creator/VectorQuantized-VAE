@@ -20,12 +20,13 @@ The hyperparameters of the Model and Network Architecture is taken from author's
 ### The Codebook Loss
 ![](https://i.imgur.com/jqbrMHG.png)
 
-### Original and Reconstructed Images
-![](https://i.imgur.com/vBeGsMr.jpg)
+### Original Images
+![](https://i.imgur.com/9XPaKpH.png)
+
+### Reconstructed Images
+![](https://i.imgur.com/5mIoEAW.png)
 
 
-### After 3000 Training iterations
-![](https://i.imgur.com/ZRHqOHm.jpg)
 
 
 
