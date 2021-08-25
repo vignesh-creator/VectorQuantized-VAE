@@ -49,7 +49,7 @@ class Network(nn.Module):
 ''' The size of codebook dimension that we initialised in this Network is (512,64). We are following the Author's 
     Hyperparameters throughout the Network. You can change the dimensions as required
 '''
-AutoEncoder = Network(512,64)
+AutoEncoder = Network(512,64).to(device)
 optimizer = torch.optim.Adam(AutoEncoder.parameters(), lr=1e-3)
 
 
@@ -67,7 +67,7 @@ def train(X):
         optimizer.step()
         recon_list.append(recon_loss.item())
         vq_loss_list.append(vq_loss.item())
-        if (i+1) % 2 == 0:
+        if (i+1) % 50 == 0:
             print('for iteration ',i+1,',Reconstruction loss is:', np.mean(recon_list[0:]))
     return recon_list,vq_loss_list
 
