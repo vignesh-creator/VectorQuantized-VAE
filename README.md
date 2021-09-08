@@ -12,7 +12,7 @@ If you just want to train the model and view train Loss plots, then use
 
 The hyperparameters of the Model and Network Architecture is taken from author's Implementation.
 
-FID Score on reconstructed test images: 21.55
+>>FID Score on reconstructed test images: 21.55
 
 ### The Reconstruction Loss
 
