@@ -27,8 +27,6 @@ The hyperparameters of the Model and Network Architecture is taken from author's
 ![](https://i.imgur.com/5mIoEAW.png)
 
 
-
-
-
+> FID Score on reconstructed test images: 21.55
 
 
