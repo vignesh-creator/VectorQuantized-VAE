@@ -5,14 +5,21 @@ As of now, VectorQuantization is done. VectorQuantizedEMA method is not yet Impl
 And also,will try to pair the Network with an Autoregressive Model soon.
 
 If you want to Train the model,plot Loss and view the Test reconstructions,then use command
-> python test.py
+
+```
+python test.py
+```
 
 If you just want to train the model and view train Loss plots, then use
-> python train.py
+
+```
+python train.py
+```
 
 The hyperparameters of the Model and Network Architecture is taken from author's Implementation.
 
->>FID Score on reconstructed test images: 21.55
+>FID Score on reconstructed test images: 21.55
+
 
 ### The Reconstruction Loss
 
